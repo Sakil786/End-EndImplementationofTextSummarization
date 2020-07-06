@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<style>
+	h1 {text-align: center;}
+	p {text-align: center;}
+	div {text-align: center;}
+</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Text Summarization Application
+		</div>
+		<h2>Text Summarization Application by Sakil Ansari </h2>
+		
+	</div>
+	</header>
+	<h2>Your Summarised Text<h2/>
+	<p style="color:blue;font-size:20;text-align: center;"><b>{{ value }}</b></p>
+	<div class="results">
+	
+	</div>
+
+</body>
+</html>
