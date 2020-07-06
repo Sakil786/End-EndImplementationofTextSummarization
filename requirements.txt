@@ -85,7 +85,7 @@ prettytable==0.7.2
 progressbar==2.3
 prompt-toolkit==2.0.9
 protobuf==3.11.3
-psutil==5.4.2
+psutil==5.6.6
 ptyprocess==0.6.0
 py==1.5.2
 pyasn1==0.4.8
